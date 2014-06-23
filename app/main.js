@@ -3,11 +3,6 @@ require([
   'tooltip'
 //  'dico'
 ], function(){
-//  console.log($.fn.jquery);
-  
-  
-  //
-  
   jQuery('.livedico').tooltip({
     items : 'span[class]',
     content : function(){
